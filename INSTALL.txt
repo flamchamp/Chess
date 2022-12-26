@@ -1,0 +1,28 @@
+Note: ssh -Y onto ugclinux server to test code, must have X11 port fowarding to 
+open gui
+
+Build files: run 'make build' (will generate _build file)
+
+Install OPAM packages: run 'make deps'
+
+In order to test implemented functionality in utop: 
+  1) run 'make' (will generate _build file)
+  2) run 'let board = Board.init_board;;' to initialize chess board [board]
+  3) run 'Board.print_board board' to visualize [board]
+  4) run 'Board.positions board' to see all the legal moves on a chess board
+     Example: White Rook starts at ('a',1)
+  5) run 'Move.legal_moves <position of piece that you want move> board' to see
+     a list of legal of moves for that the piece in that position
+  6) run 'Move.move <position of piece that you want move> <position that you
+     want to move the piece to> board' to move a piece
+     Note: Illegal moves will raise an IllegalMove exception
+  7) run 'Board.print_board board' to visualize updated [board]
+  8) Repeat steps 5 - 7
+
+In order to test implemented functionality in terminal:
+  1) run 'make play' (will generate _build file)
+  2) type 'instructions' as a command to see how to play
+  3) play
+
+In order to run our test: run 'make test' (will generate _build file)
+

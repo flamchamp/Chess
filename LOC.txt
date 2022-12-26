@@ -1,0 +1,7 @@
+When we first started this project, we had planned to implement a 
+non-terminal GUI system. We had already written the initial board, which was 
+around 150 lines of code. Adding the pieces and movements on the board
+would have added more code; however, we got stuck while trying to load
+images, so we had to ditch this idea and switch to a terminal GUI. This 
+cost us hundreds of lines of expected code, which is why our LOC is less than 
+~2000.

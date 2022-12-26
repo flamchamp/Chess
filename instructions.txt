@@ -1,0 +1,44 @@
+╔══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                  ║
+║                                   Instructions                                   ║
+║                                                                                  ║
+╠══════════════════════════════════════════════════════════════════════════════════╣
+║                                                                                  ║
+║      HOW TO PLAY:                                                                ║
+║                                                                                  ║
+║      move [start_pos] [end_pos] will move piece at [start_pos] to [end_pos],     ║
+║      with invalid moves being rejected.                                          ║
+║            ex: "move a7 a6"                                                      ║
+║                                                                                  ║
+║      quit, will quit game                                                        ║
+║            ex: "quit"                                                            ║
+║                                                                                  ║
+║      start [level], will start game on inputted level                            ║
+║            ex: "start easy"                                                      ║
+║                                                                                  ║
+║      undo, will undo move                                                        ║
+║            ex: "undo"                                                            ║
+║                                                                                  ║
+║      redo, will redo move                                                        ║
+║            ex: "redo"                                                            ║
+║                                                                                  ║
+║      moves [start], will show possible of piece at [start]                       ║
+║            ex: "possible moves a2"                                               ║
+║                                                                                  ║
+║      HOW TO PLAY CHESS:                                                          ║
+║                                                                                  ║
+║      PAWN: Moves forwards one square (except for first move when it can move     ║
+║            forward two squares), or diagonally one square to capture.            ║
+║            SPECIAL MOVE: ENT PASSANT                                             ║
+║      KNIGHT: Moves in a L shape with a 3 : 1 square ratio.                       ║
+║      BISHOP: Moves Moves unlimited amount of squares diagonally as long as       ║
+║              not obstructed by another piece                                     ║
+║      ROOK: Moves unlimited amount of squares horizontally or vertically as       ║
+║             long as not obstructed by another piece.                             ║
+║      QUEEN: Moves unlimited amount of squares in any direction as long as        ║
+║             not obstructed by another piece.                                     ║
+║      KING: Moves one square in any direction. SPECIAL MOVE: CASTLING             ║
+║                                                                                  ║
+║   FOR MORE COMPREHENSIVE RULES: https://www.chess.com/learn-how-to-play-chess    ║
+║                                                                                  ║
+╚══════════════════════════════════════════════════════════════════════════════════╝
